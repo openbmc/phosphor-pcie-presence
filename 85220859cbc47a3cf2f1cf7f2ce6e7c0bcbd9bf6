@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a23299d_1a906494",
+        "filename": "Makefile.am",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-01-24T17:32:57Z",
+      "side": 1,
+      "message": "this should be called\n\n phosphor-pcie-presence\n\nop is inappropriate because this should not be an openpower specific application.",
+      "revId": "85220859cbc47a3cf2f1cf7f2ce6e7c0bcbd9bf6",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a23299d_fa8c8881",
+        "filename": "configure.ac",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-01-24T17:32:57Z",
+      "side": 1,
+      "message": "I wasn\u0027t expecting this application to own a name or create any objects, so these lines are unnecessary.",
+      "revId": "85220859cbc47a3cf2f1cf7f2ce6e7c0bcbd9bf6",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a23299d_baee1021",
+        "filename": "configure.ac",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-01-24T17:32:57Z",
+      "side": 1,
+      "message": "This application is going to end up calling xyz.openbmc_project.Inventory.Manager.Notify with the detected cards.\n\nThe Notify API takes paths relative to the inventory namespace root, so I\u0027m not seeing any need for this application to know about paths.",
+      "revId": "85220859cbc47a3cf2f1cf7f2ce6e7c0bcbd9bf6",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a23299d_7acf58b1",
+        "filename": "inventory_detector_main.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-01-24T17:32:57Z",
+      "side": 1,
+      "message": "This would be a mainloop for a dbus server that provides objects.  This application is a client and not providing any objects so you don\u0027t need a loop like this.\n\nRather, you need an sd_event loop.  Here is an example of an sd_event loop:\n\nhttps://github.com/openbmc/phosphor-objmgr/blob/master/libmapper/mapper.c",
+      "revId": "85220859cbc47a3cf2f1cf7f2ce6e7c0bcbd9bf6",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    }
+  ]
+}
