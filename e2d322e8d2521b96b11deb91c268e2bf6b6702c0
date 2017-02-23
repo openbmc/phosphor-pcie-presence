@@ -1,0 +1,208 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a1d315d_8568a5f6",
+        "filename": "Makefile.am",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-02-23T14:21:00Z",
+      "side": 1,
+      "message": "don\u0027t forget $(SDBUSPLUS_LIBS)\n\nyou should also set phosphor_pcie_presence_CXXFLAGS \u003d $(SYSTEMD_CFLAGS) $(SDBUSPLUS_CFLAGS",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_a563a119",
+        "filename": "configure.ac",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-02-23T14:21:00Z",
+      "side": 1,
+      "message": "we have a sdbusplus pkconfig now too so make sure to check for that as well.",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_c57d7db3",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-02-23T14:21:00Z",
+      "side": 1,
+      "message": "can we get rid of this commented out line?",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_a54a8181",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-02-23T14:21:00Z",
+      "side": 1,
+      "message": "our style conventions say this should be ioHandler",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_e580798d",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-02-23T14:21:00Z",
+      "side": 1,
+      "message": "std::cout",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_255e7146",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-02-23T14:21:00Z",
+      "side": 1,
+      "message": "don\u0027t you need to pass in a path to a file that you epoll on?",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_656d8904",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-02-23T14:21:00Z",
+      "side": 1,
+      "message": "use nullptr rather than NULL throughout.",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_854f8592",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-02-23T14:21:00Z",
+      "side": 1,
+      "message": "eventSource, per style guidelines.",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_65446974",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-02-23T14:21:00Z",
+      "side": 1,
+      "message": "Adam added an sd_event_attach wrapper to sdbusplus:\n\nhttps://gerrit.openbmc-project.xyz/#/c/1827/\n\nSo you should just be able to call:\n\n bus.attach_event(presenceEvent, SD_EVENT_PRIORITY_NORMAL);\n\nand get rid of this second bus connection \u0027conn\u0027",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_257791d6",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-02-23T14:21:00Z",
+      "side": 1,
+      "message": "whenever you call a c api that returns a return code, you should throw an exception if it returns bad status.  you could make a wrapper...",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_45728de6",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-02-23T14:21:00Z",
+      "side": 1,
+      "message": "extra newline",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_057495cd",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-02-23T14:21:00Z",
+      "side": 1,
+      "message": "if you want you can catch your exceptions and do this cleanup, but since the program is exitting it isn\u0027t necessary.",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    }
+  ]
+}
