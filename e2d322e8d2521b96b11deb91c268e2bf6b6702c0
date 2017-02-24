@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "3a1d315d_6c2571aa",
+        "filename": "Makefile.am",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-02-24T17:55:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a1d315d_8568a5f6",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_a563a119",
         "filename": "configure.ac",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2017-02-23T14:21:00Z",
       "side": 1,
       "message": "we have a sdbusplus pkconfig now too so make sure to check for that as well.",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_49206749",
+        "filename": "configure.ac",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-02-24T17:55:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a1d315d_a563a119",
       "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
       "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "3a1d315d_8c41ed0d",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-02-24T17:55:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a1d315d_c57d7db3",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_a54a8181",
         "filename": "pcie_presence_main.cpp",
         "patchSetId": 3
@@ -64,6 +118,24 @@
       "writtenOn": "2017-02-23T14:21:00Z",
       "side": 1,
       "message": "our style conventions say this should be ioHandler",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_ac6389b0",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-02-24T17:55:59Z",
+      "side": 1,
+      "message": "Move this function to interface.cpp. And will conform our naming style.",
+      "parentUuid": "3a1d315d_a54a8181",
       "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
       "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "3a1d315d_4c3f5526",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-02-24T17:55:59Z",
+      "side": 1,
+      "message": "Move this function to interface.cpp. Changed to std::out.",
+      "parentUuid": "3a1d315d_e580798d",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_255e7146",
         "filename": "pcie_presence_main.cpp",
         "patchSetId": 3
@@ -98,6 +188,24 @@
       "writtenOn": "2017-02-23T14:21:00Z",
       "side": 1,
       "message": "don\u0027t you need to pass in a path to a file that you epoll on?",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_ec4501b4",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-02-24T17:55:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a1d315d_255e7146",
       "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
       "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
       "unresolved": false
@@ -121,6 +229,24 @@
     },
     {
       "key": {
+        "uuid": "3a1d315d_0c495dd0",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-02-24T17:55:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a1d315d_656d8904",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_854f8592",
         "filename": "pcie_presence_main.cpp",
         "patchSetId": 3
@@ -132,6 +258,24 @@
       "writtenOn": "2017-02-23T14:21:00Z",
       "side": 1,
       "message": "eventSource, per style guidelines.",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_2c3c192f",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-02-24T17:55:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a1d315d_854f8592",
       "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
       "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
       "unresolved": false
@@ -155,6 +299,24 @@
     },
     {
       "key": {
+        "uuid": "3a1d315d_cc1245b4",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-02-24T17:55:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a1d315d_65446974",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_257791d6",
         "filename": "pcie_presence_main.cpp",
         "patchSetId": 3
@@ -166,6 +328,24 @@
       "writtenOn": "2017-02-23T14:21:00Z",
       "side": 1,
       "message": "whenever you call a c api that returns a return code, you should throw an exception if it returns bad status.  you could make a wrapper...",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_2c23f906",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-02-24T17:55:59Z",
+      "side": 1,
+      "message": "ok.Thanks, will check more examples to learn how to use it.",
+      "parentUuid": "3a1d315d_257791d6",
       "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
       "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
       "unresolved": false
@@ -189,6 +369,24 @@
     },
     {
       "key": {
+        "uuid": "3a1d315d_6c11f1ab",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-02-24T17:55:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a1d315d_45728de6",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_057495cd",
         "filename": "pcie_presence_main.cpp",
         "patchSetId": 3
@@ -200,6 +398,24 @@
       "writtenOn": "2017-02-23T14:21:00Z",
       "side": 1,
       "message": "if you want you can catch your exceptions and do this cleanup, but since the program is exitting it isn\u0027t necessary.",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_4c263518",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-02-24T17:55:59Z",
+      "side": 1,
+      "message": "Got it.",
+      "parentUuid": "3a1d315d_057495cd",
       "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
       "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
       "unresolved": false
