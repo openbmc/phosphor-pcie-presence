@@ -2,6 +2,52 @@
   "comments": [
     {
       "key": {
+        "uuid": "3a1d315d_cf5eb7e9",
+        "filename": "Makefile.am",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000029
+      },
+      "writtenOn": "2017-02-24T21:37:54Z",
+      "side": 1,
+      "message": "1 tab",
+      "range": {
+        "startLine": 3,
+        "startChar": 1,
+        "endLine": 3,
+        "endChar": 2
+      },
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_af637bb0",
+        "filename": "Makefile.am",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000029
+      },
+      "writtenOn": "2017-02-24T21:37:54Z",
+      "side": 1,
+      "message": "1 tab",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 8
+      },
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_8568a5f6",
         "filename": "Makefile.am",
         "patchSetId": 3
@@ -31,6 +77,47 @@
       "side": 1,
       "message": "Done",
       "parentUuid": "3a1d315d_8568a5f6",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_4f72a77d",
+        "filename": "Makefile.am",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000029
+      },
+      "writtenOn": "2017-02-24T21:37:54Z",
+      "side": 1,
+      "message": "just fyi...$(SYSTEMD_CFLAGS) \u003d \u0027\u0027 but doesnt hurt if added.",
+      "parentUuid": "3a1d315d_8568a5f6",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_2f6f6b94",
+        "filename": "configure.ac",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000029
+      },
+      "writtenOn": "2017-02-24T21:37:54Z",
+      "side": 1,
+      "message": "AC_PREREQ([2.69])",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 1
+      },
       "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
       "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
       "unresolved": false
@@ -136,6 +223,24 @@
       "side": 1,
       "message": "Move this function to interface.cpp. And will conform our naming style.",
       "parentUuid": "3a1d315d_a54a8181",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_cf0597c3",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000029
+      },
+      "writtenOn": "2017-02-24T21:37:54Z",
+      "side": 1,
+      "message": "80char wide also",
+      "parentUuid": "3a1d315d_ac6389b0",
       "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
       "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
       "unresolved": false
@@ -282,6 +387,24 @@
     },
     {
       "key": {
+        "uuid": "3a1d315d_af0a5bd0",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000029
+      },
+      "writtenOn": "2017-02-24T21:37:54Z",
+      "side": 1,
+      "message": "Also, declarator layout should be left justified\ni.e)\n sd_even_source* eventSource \u003d nullptr;",
+      "parentUuid": "3a1d315d_2c3c192f",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_65446974",
         "filename": "pcie_presence_main.cpp",
         "patchSetId": 3
@@ -317,6 +440,29 @@
     },
     {
       "key": {
+        "uuid": "3a1d315d_8f0f9fe1",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1000029
+      },
+      "writtenOn": "2017-02-24T21:37:54Z",
+      "side": 1,
+      "message": "Bracketing style is own line at the same indentation level as the statement\n\n if (r \u003c 0)\n {",
+      "range": {
+        "startLine": 30,
+        "startChar": 19,
+        "endLine": 30,
+        "endChar": 20
+      },
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_257791d6",
         "filename": "pcie_presence_main.cpp",
         "patchSetId": 3
@@ -346,6 +492,29 @@
       "side": 1,
       "message": "ok.Thanks, will check more examples to learn how to use it.",
       "parentUuid": "3a1d315d_257791d6",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_2ff64bd8",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000029
+      },
+      "writtenOn": "2017-02-24T21:37:54Z",
+      "side": 1,
+      "message": "Did you intended to have \u0027-r\u0027 here(and throughout) when r \u003c 0 ?",
+      "range": {
+        "startLine": 32,
+        "startChar": 52,
+        "endLine": 32,
+        "endChar": 54
+      },
       "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
       "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
       "unresolved": false
