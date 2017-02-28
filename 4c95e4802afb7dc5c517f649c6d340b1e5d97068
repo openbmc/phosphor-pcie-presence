@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a1d315d_ef729348",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 5
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-02-28T15:22:41Z",
+      "side": 1,
+      "message": "I supposed to hardcode the gpio path. \nAs Brad suggested it will take path as an argument.",
+      "range": {
+        "startLine": 24,
+        "startChar": 4,
+        "endLine": 24,
+        "endChar": 11
+      },
+      "revId": "4c95e4802afb7dc5c517f649c6d340b1e5d97068",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    }
+  ]
+}
