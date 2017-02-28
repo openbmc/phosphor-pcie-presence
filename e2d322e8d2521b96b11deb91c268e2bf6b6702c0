@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "3a1d315d_c037a4af",
+        "filename": "Makefile.am",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-02-28T15:22:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a1d315d_cf5eb7e9",
+      "range": {
+        "startLine": 3,
+        "startChar": 1,
+        "endLine": 3,
+        "endChar": 2
+      },
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_af637bb0",
         "filename": "Makefile.am",
         "patchSetId": 3
@@ -36,6 +60,30 @@
       "writtenOn": "2017-02-24T21:37:54Z",
       "side": 1,
       "message": "1 tab",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 8
+      },
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_e0baa009",
+        "filename": "Makefile.am",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-02-28T15:22:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a1d315d_af637bb0",
       "range": {
         "startLine": 6,
         "startChar": 0,
@@ -101,6 +149,24 @@
     },
     {
       "key": {
+        "uuid": "3a1d315d_2093f8a4",
+        "filename": "Makefile.am",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-02-28T15:22:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a1d315d_4f72a77d",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_2f6f6b94",
         "filename": "configure.ac",
         "patchSetId": 3
@@ -112,6 +178,30 @@
       "writtenOn": "2017-02-24T21:37:54Z",
       "side": 1,
       "message": "AC_PREREQ([2.69])",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 1
+      },
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_a03ca894",
+        "filename": "configure.ac",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-02-28T15:22:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a1d315d_2f6f6b94",
       "range": {
         "startLine": 1,
         "startChar": 0,
@@ -241,6 +331,24 @@
       "side": 1,
       "message": "80char wide also",
       "parentUuid": "3a1d315d_ac6389b0",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_00559cc5",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-02-28T15:22:41Z",
+      "side": 1,
+      "message": "Moved this function to interface.cpp and modified it against to 80char wide rule.",
+      "parentUuid": "3a1d315d_cf0597c3",
       "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
       "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
       "unresolved": false
@@ -405,6 +513,24 @@
     },
     {
       "key": {
+        "uuid": "3a1d315d_605d70e9",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-02-28T15:22:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a1d315d_af0a5bd0",
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a1d315d_65446974",
         "filename": "pcie_presence_main.cpp",
         "patchSetId": 3
@@ -509,6 +635,30 @@
       "writtenOn": "2017-02-24T21:37:54Z",
       "side": 1,
       "message": "Did you intended to have \u0027-r\u0027 here(and throughout) when r \u003c 0 ?",
+      "range": {
+        "startLine": 32,
+        "startChar": 52,
+        "endLine": 32,
+        "endChar": 54
+      },
+      "revId": "e2d322e8d2521b96b11deb91c268e2bf6b6702c0",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a1d315d_80b08cde",
+        "filename": "pcie_presence_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-02-28T15:22:41Z",
+      "side": 1,
+      "message": "I supposed \u0027r\u0027 is minus here. As Brad indicated, I\u0027ll throw an exception.",
+      "parentUuid": "3a1d315d_2ff64bd8",
       "range": {
         "startLine": 32,
         "startChar": 52,
